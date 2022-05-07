@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header form > *{
+    padding: 0.25rem;
+}
+
+header{
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+
+header h1{
+    margin-bottom: 2rem;
+
+}
+
+section.app{
+    padding: 1rem;
+}
+
+section.app ul{
+    margin: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+    display:  grid;
+    gap:  1rem;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+}
